@@ -19,6 +19,10 @@ Finder, the app just agrees with you on the next scan.
 
 
 ## Setup
+### very simple installation using dmg
+Look for `WallpaperFiler-1.0.0-arm64.dmg` in the dist directory and double click to install.
+
+Or if you want to suffer, do the following...
 
 ```bash
 cd wallpaper-filer
