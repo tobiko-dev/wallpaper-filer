@@ -1,6 +1,9 @@
 # Wallpaper filer
+<img width="180" height="180" alt="icon-app" src="https://github.com/user-attachments/assets/b191bc47-4a20-48a2-81d1-08dc737c09af" />
 
 Drop images in, pick a show, get `show-name_007.jpg`. Built for macOS.
+
+<img width="415" height="410" alt="image" src="https://github.com/user-attachments/assets/4619a0dd-fb1e-46f0-a49b-b4b34960e79e" />
 
 The folder is the database. Show names are derived by scanning filenames, so
 there's no index file to keep in sync — if you rename or delete things in
