@@ -1,0 +1,16 @@
+# build output
+build/
+dist/
+*.spec.bak
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# runtime state written into wallpaper folders
+.wallpaper-filer-cache.json
+.wallpaper-filer-undo.json
