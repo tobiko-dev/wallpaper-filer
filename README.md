@@ -3,11 +3,20 @@
 
 Drop images in, pick a show, get `show-name_007.jpg`. Built for macOS.
 
-<img width="415" height="410" alt="image" src="https://github.com/user-attachments/assets/4619a0dd-fb1e-46f0-a49b-b4b34960e79e" />
+<img width="415" height="415" alt="image" src="https://github.com/user-attachments/assets/4619a0dd-fb1e-46f0-a49b-b4b34960e79e" />
 
 The folder is the database. Show names are derived by scanning filenames, so
 there's no index file to keep in sync — if you rename or delete things in
 Finder, the app just agrees with you on the next scan.
+
+### Before ...
+<img width="750" height="417" alt="image" src="https://github.com/user-attachments/assets/d76fcaf1-e52d-4e4d-8d9e-f7af21a04a0b" />
+<img width="415" height="415" alt="image" src="https://github.com/user-attachments/assets/3bcdfef8-6bc6-4cf7-ba19-4b99d891ab20" />
+
+
+### After!
+<img width="754" height="412" alt="image" src="https://github.com/user-attachments/assets/3a574e0a-7f80-4799-8b89-826024d82c95" />
+
 
 ## Setup
 
