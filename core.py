@@ -184,8 +184,14 @@ def plan(sources, show_raw: str, library: Library) -> list[PlannedFile]:
             continue
 
         if digest in seen_hashes:
-            results.append(PlannedFile(source, status="duplicate", detail=f"already have {seen_hashes[digest]}"))
-            continue
+            existing_name = seen_hashes[digest]
+            
+            # Check if the "duplicate" is actually just the file we are currently trying to rename
+            is_same_file = (library.folder / existing_name).resolve() == source.resolve()
+            
+            if not is_same_file:
+                results.append(PlannedFile(source, status="duplicate", detail=f"already have {existing_name}"))
+                continue
 
         while f"{show}_{index:0{PAD}d}{suffix}".lower() in taken:
             index += 1
